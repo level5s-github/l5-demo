@@ -1,0 +1,20 @@
+{
+  "name": "l5-demo",
+  "version": "1.0.0",
+  "description": "L5 NodeJs Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/level5s-github/l5-demo.git"
+  },
+  "keywords": [],
+  "author": "Sherwin Cunanan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/level5s-github/l5-demo/issues"
+  },
+  "homepage": "https://github.com/level5s-github/l5-demo#readme"
+}
