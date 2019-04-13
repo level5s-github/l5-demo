@@ -4,7 +4,8 @@
   "description": "L5 NodeJs Demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint src/*.js",
+    "lint:fix": "npx prettier-eslint src/*.js --write"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/level5s-github/l5-demo/issues"
   },
-  "homepage": "https://github.com/level5s-github/l5-demo#readme"
+  "homepage": "https://github.com/level5s-github/l5-demo#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
+  }
 }
